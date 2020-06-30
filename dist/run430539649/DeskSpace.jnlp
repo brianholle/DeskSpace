@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DeskSpace.jnlp">
+  <information>
+    <title>DeskSpace</title>
+    <vendor>mrbri</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DeskSpace.jar" size="22415" download="eager" />
+    <jar href="lib\UndecoratorBis.jar" size="121176" download="eager" />
+    <jar href="lib\jfoenix-8.0.5.jar" size="2657082" download="eager" />
+    <jar href="lib\jna-4.4.0.jar" size="1091208" download="eager" />
+    <jar href="lib\jna-platform-4.4.0.jar" size="2281814" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.44-bin.jar" size="999635" download="eager" />
+    <jar href="lib\mysql-socket-factory-core-1.0.2.jar" size="16675" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DeskSpace" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="deskspace.DeskSpace"  name="DeskSpace" />
+  <update check="always"/>
+</jnlp>
