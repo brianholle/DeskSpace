@@ -4,6 +4,16 @@ This is a small project that allows for cross collaboration on an image through 
 
 ![DeskSpace Preview](https://github.com/brianholle/DeskSpace/blob/master/Capture.PNG)
 
-## Authors
+## Usage
 
-* **Brian Holle**
+```
+Execute build file (jar).
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
